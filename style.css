@@ -1,0 +1,140 @@
+
+*{margin: 0px;
+    padding: 0px;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif}
+   
+   
+   
+   header{
+   
+     display:flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+     background-color: white;
+     width: 100%;
+     min-width: 300px;
+   }
+   
+   #headset {margin: 30px 0px;
+     min-width: 300px;
+     display:flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;}
+   
+   .psedu {
+    color: #ee9032;
+   font-size: 2rem;
+   text-transform: capitalize;
+   }
+   
+   
+   
+   body {
+     min-width: 300px;
+     height: 100%;
+     display:flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     animation-duration: 5s;
+     animation-name: anime;
+     animation-timing-function: ease;
+     animation-delay: 0s;
+     animation-iteration-count: infinite;
+     animation-fill-mode: both;
+     background-image: linear-gradient(50deg, #ee9032, #f16d52, #ec4a77, #a063aa, #7963aa, #4b6eb5, #109aaf, #07b890, #6bb97f );
+       background-size: 300%;
+       background-repeat: no-repeat;
+   
+   }
+   @keyframes anime {
+    0% {background-position: 0% 50%;
+   }
+   
+   50% {background-position: 50% 100%;}
+   
+   100% {background-position: 0% 50%;}
+   
+     
+   }
+   
+   #refresh {
+   color: #eafffa;
+   padding: 10px 15px;
+   font-size: 16px;
+   border-style: none;
+   background-color:#a063aa;
+   border-radius: 5px;
+   box-shadow: 0px 0px 7px blueviolet;
+   transition: 0.1s;
+   }
+   
+   
+   #refresh:hover { background-color: #7963aa;
+   
+    padding: 13.33px 20px;
+   
+   }
+   
+   #refresh:active { background-color:#a063aa;
+   box-shadow: 0px 0px 7px blueviolet;
+   padding: 10px 15px;}
+   
+   
+   
+   #size-controller { 
+       display:flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;
+       width: 100%;
+       height: 60px;
+   overflow: hidden;}
+   
+   
+   
+   #jokebox {
+   
+   width:100%;
+   height:80%;
+   margin: 0px;
+   padding: 10px;
+   text-align: center;
+   width: 70%;
+   min-width: 275px;
+   display:flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;
+   }
+   
+   
+    main {
+     margin: 60px 0px 80px 0px;
+     min-width: 290px;
+      height: auto;
+      display:flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;
+     width: 55%;
+     height: 450px;
+     padding: 0px 0px 20px 0px;
+     background: rgb(248, 243, 243);
+     border-radius: 15px;
+   
+   
+    }
+   
+   
+   
+   .bigone::first-letter { font-size: 2.5rem;}
+   
+   
+   
