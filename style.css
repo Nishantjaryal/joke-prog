@@ -105,7 +105,8 @@
    padding: 10px;
    text-align: center;
    width: 70%;
-   min-width: 275px;
+   min-width: 325px;
+   min-height: 100vh;
    display:flex;
      flex-wrap: wrap;
      justify-content: center;
