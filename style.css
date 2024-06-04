@@ -105,8 +105,7 @@
    padding: 10px;
    text-align: center;
    width: 70%;
-   min-width: 325px;
-   min-height: 100vh;
+   min-width: 275px;
    display:flex;
      flex-wrap: wrap;
      justify-content: center;
@@ -117,7 +116,8 @@
    
     main {
      margin: 60px 0px 80px 0px;
-     min-width: 290px;
+     min-width: 300px;
+      min-height: 100vh;
       height: auto;
       display:flex;
      flex-wrap: wrap;
